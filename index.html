@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Car rental</title>
+</head>
+<body>
+    <header>
+        <div class="burger_menu">≡
+        </div>
+
+        <div class="title">
+            <h1>Welcome on board</h1>
+            <p>24/7 car rental</p>
+        </div>
+
+
+        <form action="#" method="GET">
+            <div class="search_select">
+
+                <select name="adress" id="adress-select">
+                    <option value="">Departure adress</option>
+                    <option value="paris">Paris</option>
+                    <option value="lyon">Lyon</option>
+                    <option value="marseille">Marseille</option>
+                    <option value="brest">Brest</option>
+                    <option value="strasbourg">Strasbourg</option>
+                    <option value="lille">Lille</option>
+                    <option value="lehavre">Le Havre</option>
+                    <option value="bordeaux">Bordeaux</option>
+                    <option value="nantes">Nantes</option>
+                    <option value="grenoble">Grenoble</option>
+                </select>
+
+                <input type="date" id="start" name="rental-start" min="2023-01-01" max="2023-12-31">
+
+                <input type="date" id="end" name="rental-end" min="2023-01-01" max="2023-12-31">
+
+            </div>
+
+            <input type="submit" value="Validate my search">
+        </form>
+    </header>
+    
+    <main>
+        <div class="result-container">
+
+            <div class="filter_area">
+                <p id="nb_results">7 results</p>
+
+                <select name="filter" id="filter-select">
+                    <option value="increase">Increasing price</option>
+                    <option value="decrease">Decreasing price</option>
+                </select>
+            </div>
+
+            <section class="results">
+                <div class="car">
+                    <div class="carousel">
+                        <img src="img/vehicule1.png" alt="carousel car #1">
+                    </div>
+
+                    <div class="description">
+                        <h2 class="brand">Peugeot 208</h2>
+                        <p class="characteristics">Diesl, 5 doors, GPS, Autoradio, 1,000 km plan (0.5/km additionnal).</p>
+                        <p class="purchase-info"><span class="price">999</span> € - <span class="agency">Paris Agency</span></p>
+                        <button class="book" value="peugeot_208">Book and pay</button>
+                    </div>
+                </div>
+                <div class="car">
+                    <div class="carousel">
+                        <img src="img/vehicule2.png" alt="carousel car #2">
+                    </div>
+
+                    <div class="description">
+                        <h2 class="brand">Ford Focus</h2>
+                        <p class="characteristics">Diesl, 5 doors, GPS, Autoradio, 1,000 km plan (0.5/km additionnal).</p>
+                        <p class="purchase-info"><span class="price">999</span> € - <span class="agency">Paris Agency</span></p>
+                        <button class="book" value="ford_focus">Book and pay</button>
+                    </div>
+                </div>
+                <div class="car">
+                    <div class="carousel">
+                        <img src="img/vehicule3.png" alt="carousel car #3">
+                    </div>
+
+                    <div class="description">
+                        <h2 class="brand">Audi A1</h2>
+                        <p class="characteristics">Diesl, 5 doors, GPS, Autoradio, 1,000 km plan (0.5/km additionnal).</p>
+                        <p class="purchase-info"><span class="price">1,100</span> € - <span class="agency">Paris Agency</span></p>
+                        <button class="book" value="audi_a1">Book and pay</button>
+                    </div>
+                </div>
+                <div class="car">
+                    <div class="carousel">
+                        <img src="img/vehicule4.png" alt="carousel car #4">
+                    </div>
+
+                    <div class="description">
+                        <h2 class="brand">Opel Mokka</h2>
+                        <p class="characteristics">Diesl, 5 doors, GPS, Autoradio, 1,000 km plan (0.5/km additionnal).</p>
+                        <p class="purchase-info"><span class="price">1,150</span> € - <span class="agency">Paris Agency</span></p>
+                        <button class="book" value="opel_mokka">Book and pay</button>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <div class="contact-info">
+            <img class="contact-img" src="img/agence.png" alt="Picture of Paris Agency">
+            <div class="contact-description">
+                <p>
+                    Our <strong>Paris</strong> Agency
+                </p>
+                <ul>
+                    <li>300 boulevard de Vaugirard, 75015, Paris</li>
+                    <li>Open daily from 9 to 13 and from 14 to 20</li>
+                    <li>01 49 78 21 33</li>
+                    <li>contact@vtc.com</li>
+                </ul> 
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
