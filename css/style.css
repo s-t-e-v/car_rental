@@ -13,7 +13,11 @@ body {
     margin: 0 auto;
     width: 1144px;
 
-    background-color: blueviolet;
+    color: rgb(31, 51, 51);
+    
+    font-family: 'Roboto', sans-serif;
+    
+    /* background-color: blueviolet; */
 }
 
 /* Header */
@@ -131,6 +135,14 @@ main {
     border: solid 3px yellowgreen;
 }
 
+/* Car */
+
+.car h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 0.6em;
+}
+
 .car {
     display: flex;
     margin-bottom: 40px;
@@ -141,7 +153,46 @@ main {
 .description {
     margin-left: 20px;
     border: solid 3px blue;
+
+    font-size: x-small;
 }
+
+.description p {
+    margin-bottom: 0.7em;
+}
+
+.carousel {
+    width: 35%;
+    margin: 0 10px;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.book {
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: rgb(37,145,34);
+    background: linear-gradient(0deg, rgba(37,145,34,1) 0%, rgba(49,179,23,1) 50%, rgba(71,204,14,1) 100%); 
+
+    text-align: center;
+
+    padding: 5px 10px;
+
+}
+
+.book:hover {
+    background: rgb(37,131,34);
+    background: linear-gradient(0deg, rgba(37,131,34,1) 0%, rgba(42,153,19,1) 50%, rgba(61,171,14,1) 100%); 
+}
+
+.book:active {
+    box-shadow: inset 0 0 10px 1px rgb(3, 88, 22);
+}
+
+
 
 .result-container {
     margin: 0 auto;
